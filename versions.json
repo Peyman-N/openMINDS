@@ -1,4 +1,36 @@
 {
+  "devlopment": {
+    "SANDS": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_SANDS.git"
+    },
+    "chemicals": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_chemicals.git"
+    },
+    "computation": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_computation.git"
+    },
+    "controlledTerms": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_controlledTerms.git"
+    },
+    "core": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
+    },
+    "ephys": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_ephys.git"
+    },
+    "publications": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_publications.git"
+    },
+    "specimenPrep": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_specimenPrep.git"
+    },
+    "stimulation": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
+    },
+    "neuroimaging": {
+      "repository": "https://github.com/openMetadataInitiative/openMINDS_neuroimaging.git"
+    }
+  },
   "latest": {
     "SANDS": {
       "repository": "https://github.com/openMetadataInitiative/openMINDS_SANDS.git"
