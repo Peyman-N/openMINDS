@@ -28,7 +28,7 @@
       "repository": "https://github.com/openMetadataInitiative/openMINDS_stimulation.git"
     },
     "neuroimaging": {
-      "repository": "https://github.com/openMetadataInitiative/openMINDS_neuroimaging.git"
+      "repository": "https://github.com/Peyman-N/openMINDS_MRI.git"
     }
   },
   "latest": {
