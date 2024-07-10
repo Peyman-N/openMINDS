@@ -58,7 +58,7 @@ def evaluate_versions_to_be_built(trigger:Optional[Trigger]) -> Dict[str, Dict[s
     if os.path.exists("pipeline"):
         shutil.rmtree("pipeline")
     repo = Repo.clone_from("https://github.com/Peyman-N/openMINDS.git", "pipeline")
-    repo.git.checkout("peyman_pipline")
+    repo.git.checkout("neuroimaging_pipeline")
 
     with open("pipeline/versions.json", "r") as version_specs:
         versions = json.load(version_specs)
