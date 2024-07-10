@@ -55,15 +55,11 @@ def evaluate_versions_to_be_built(trigger:Optional[Trigger]) -> Dict[str, Dict[s
         print(f"Triggered by a submodule change of module {trigger.repository} in version {trigger.branch}")
     else:
         print("No specific trigger - going to build everything...")
-    if os.path.exists("pipeline"):
-        shutil.rmtree("pipeline")
-    repo = Repo.clone_from("https://github.com/Peyman-N/openMINDS.git", "pipeline")
-    repo.git.checkout("neuroimaging_pipeline")
 
-    with open("pipeline/versions.json", "r") as version_specs:
+
+    with open("versions.json", "r") as version_specs:
         versions = json.load(version_specs)
-    if os.path.exists("pipeline"):
-        shutil.rmtree("pipeline")
+
     relevant_versions = {}
     for version, modules in versions.items():
         triggering_module = None
