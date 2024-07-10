@@ -9,9 +9,6 @@
     "computation": {
       "repository": "https://github.com/openMetadataInitiative/openMINDS_computation.git"
     },
-    "controlledTerms": {
-      "repository": "https://github.com/openMetadataInitiative/openMINDS_controlledTerms.git"
-    },
     "core": {
       "repository": "https://github.com/openMetadataInitiative/openMINDS_core.git"
     },
